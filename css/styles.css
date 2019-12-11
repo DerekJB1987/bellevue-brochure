@@ -9,7 +9,7 @@ img {
     margin-right: auto;
 }
 
-div#header {
+div#banner {
     width: 100%;
     position: absolute;
     left: 0;
@@ -17,7 +17,7 @@ div#header {
     background-color: #990000;
 }
 
-div#header h1 {
+div#banner h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     color: white;
