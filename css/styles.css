@@ -4,32 +4,39 @@ body {
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
 }
 
 div#banner {
     width: 100%;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     background-color: #990000;
 }
 
+div#spacer {
+    width: 100%;
+    visibility: hidden;
+    margin-top: 1%;
+}
+
 div#banner h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 900;
+    font-family: Verdana, Tahoma, sans-serif;
     color: white;
-    font-size: 1.5em;
-    margin-left: 2%;
-    padding: 0;
+    font-size: 2em;
+    padding-left: 0;
+}
+
+div#main {
+    width: 75%;
+    margin: 0 auto 0 auto;
 }
 
 div#navbar {
+    width: 60%;
+    margin-left: 5%;
     clear: both;
-    width: 100%;
-    display: inline-block;
 }
 
 div#navbar ul {
@@ -38,12 +45,12 @@ div#navbar ul {
 }
 
 div#navbar ul li {
-    background-color: blue;
     text-align: center;
     display: inline;
     width: 32%;
     float: left;
     margin: 3em .5em 0 0;
+    background-color: blue;
 }
 
 div#navbar ul a {
@@ -56,10 +63,52 @@ div#navbar ul a {
     padding: .75em;
 }
 
+li.changeBackground {
+    background-color: #cc0000;
+}
+
+li.changeBackground:hover {
+    background-color: #663333;
+  }
+
+div#content {
+    width: 50%;
+    float: left;
+}
+
+div#sidebar {
+    width: 45%;
+    float: right;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+}
+
+p, ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    color: #333333;
+}
+
+div#sidebar p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #333333;
+}
+
+div#sidebar h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    margin-bottom: 1%;
+}
+
 div.footer {
+    width: 60%;
+    height: 75px;
+    margin-left: 5%;
     clear: both;
-    width: 100%;
-    display: inline-block;
 }
 
 div.footer ul {
@@ -68,20 +117,25 @@ div.footer ul {
 }
 
 div.footer ul li {
-    background-color: blue;
     text-align: center;
     display: inline;
     width: 32%;
     float: left;
     margin: 3em .5em 0 0;
+    background-color: blue;
 }
 
 div.footer ul a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 900;
     text-decoration: none;
     color: white;
     display: block;
-    padding: .75em;
+    padding: 1.2em .3em .3em .3em;
+}
+
+img.shopping {
+    float: left;
+    margin: 0 1em .5em 0;
 }
