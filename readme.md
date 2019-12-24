@@ -1,6 +1,6 @@
 # bellevue-brochure
 A three-page site of Bellevue, WA that reinforces HTML and CSS basics taught in the book
-A Smarter Way to Learn HTML & CSS by Mark Myers. 
+**A Smarter Way to Learn HTML & CSS** by Mark Myers. 
 
 The final project consisted of creating a three-page site for my home city, local region or country. All the information
 I used can be found on Wikipedia, and https://bellevuewa.gov/. All information that is presented on the Things to Do page
